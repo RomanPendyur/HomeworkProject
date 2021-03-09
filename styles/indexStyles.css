@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
- /*font-family: 'Oswald', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,400&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
 
 .body__style{
     width: 1200px;
@@ -12,8 +12,8 @@
 .grand_container__style{
     width: 1060px;
     height: 1195px;
-    background-color: aqua;
-    position: absolute;
+    background-color: #ffffff;
+    position: absolute;    
 }
 
 .header_container__style{
@@ -60,7 +60,7 @@
 }
 
 .hr_header_container__style{
-    width: 830px;
+    width: 657px;
     height: 3px;
     background-color: #ffffff;
     opacity: 0.1;
@@ -87,4 +87,95 @@
 
 .icon_style:hover{
     opacity: 1;
+}
+
+.content_container__style{
+    width: 1060px;
+    height: 1195px;       
+}
+
+
+.vert_line__style{
+    width: 2px;
+    height: 1195px;
+    background-color: gray;
+    opacity: 0.2;
+    position: relative;
+    top: -320px;
+    left: -450px;
+    bottom: 20px;
+}
+
+.content__style{
+    width: 810px;
+    height: 515px;    
+    position: relative;
+    top: -1280px;
+    left: 125px;
+    bottom: 20px;
+}
+
+.h3_content__style{
+    color: #b4b4b4;    
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 6.72px;
+    line-height: normal;    
+}
+
+.h1_content__style{
+    color: #2a2a2a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 73.52px;
+    text-align: left;
+    text-transform: uppercase; 
+    font-style: normal;
+    letter-spacing: 5.28px;
+    line-height: normal;
+}
+
+.question_content__style{    
+    width: 551px;
+    height: 30px;
+    color: #8f8f8f;
+    font-family: 'Kavivanar', cursive;
+    font-size: 30px;    
+    letter-spacing: normal;
+    line-height: 62.44px;
+    text-align: justifyLeft;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    position: relative;
+    top: -35px;
+}
+
+.text_content__style{
+    color: #000000;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 40.38px;
+    text-align: justifyLeft;    
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.text_content__style-span{
+    font-style: italic;
 }
