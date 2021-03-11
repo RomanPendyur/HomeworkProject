@@ -1,181 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,400&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
-.body__style{
-    width: 1200px;
-    height: 900px;
-    background-color: #464f54;
-    padding: 149px 70px 0 70px; 
-}
-
-.grand_container__style{
-    width: 1060px;
-    height: 1195px;
-    background-color: #ffffff;
-    position: absolute;    
-}
-
-.header_container__style{
-    width: 657px;
-    height: 187px;
-    background-color: #181818;
-    position: relative;
-    top: -90px;
-    left: 390px; 
+.grand_container__styles{
     display: flex;
+    justify-content: center;
+    align-content: center;
     flex-direction: column;
-    padding: 50px 0 0 53px;
+    position: relative; 
+    font-family: Lato;   
 }
 
-.p_header_container__style {
-   color: #767676;
-   font-family: "Proxima Nova", sans-serif;
-   font-size: 15px;
-   font-weight: 400;
-   font-style: normal;
-   letter-spacing: normal;
-   line-height: 109.03px;
-   text-align: left;
-   text-transform: uppercase;
-   font-style: normal;
-   letter-spacing: 4.8px;
-   line-height: normal;   
-}
-
-.h2_header_container__style{
-   color: #fefefe;
-   font-family: "Playfair Display";
-   font-size: 48px;
-   font-weight: 400;
-   font-style: normal;
-   letter-spacing: normal;
-   line-height: 94.03px;
-   text-align: left;
-   font-style: normal;
-   letter-spacing: normal;
-   line-height: normal;   
-   position: relative;
-   top: -38px;
-}
-
-.hr_header_container__style{
-    width: 657px;
-    height: 3px;
-    background-color: #ffffff;
-    opacity: 0.1;
+.header_container__styles{    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;    
     position: relative;
-    top: -60px;
+    text-align: center; 
+   
 }
 
-.options_container__style{    
-   width: 561px;
-   height: 32px;   
-   background-color: #fbc02d;
-   position: relative;
-   left: 454px;
-   top: -90px;
-   display: flex;
-   flex-direction: row;
-   padding: 22px 42px;
+.header_h1__styles{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 320%;
+    color: #3c3c3c;
+    width: 100vw;
+    height: 80px;
 }
 
-.icon_style{
-    margin: 0 22px 0 0;
-    opacity: 0.4;
-}
-
-.icon_style:hover{
-    opacity: 1;
-}
-
-.content_container__style{
-    width: 1060px;
-    height: 1195px;       
-}
-
-
-.vert_line__style{
-    width: 2px;
-    height: 1195px;
-    background-color: gray;
-    opacity: 0.2;
+.header_horizontalline__styles{  
+    background-color: #dddbdb;
+    border: none;
+    width: 45px;
+    height: 4px;
     position: relative;
-    top: -320px;
-    left: -450px;
-    bottom: 20px;
+    top: -20px;    
 }
 
-.content__style{
-    width: 810px;
-    height: 515px;    
+.header_p__styles{    
+    display: flex;    
+    flex-direction: column;    
+    color: #3c3c3c;
     position: relative;
-    top: -1280px;
-    left: 125px;
-    bottom: 20px;
+    justify-content: center;
+    width: 540px;
+    height: 90px;
+    top: -15px;
+    right: -25px;
 }
 
-.h3_content__style{
-    color: #b4b4b4;    
-    font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: left;
-    text-transform: uppercase;
-    font-style: normal;
-    letter-spacing: 6.72px;
-    line-height: normal;    
+.header_p_container__styles {
+    display: flex;
+    justify-content: center;    
+    width: 100vw;
+    height: 100px;
 }
 
-.h1_content__style{
-    color: #2a2a2a;
-    font-family: 'Roboto', sans-serif;
-    font-size: 65px;
+.center_panel_container__styles{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;    
+    position: relative;
+    text-align: center; 
+    width: 100vw;
+    height: 650px;    
+}
+
+.panel__styles{
+    width: 269px;
+    height: 330px;
+    margin: 50px;     
+}
+
+.developer_foto_panel__styles{
+    background-image: url("../img/Developer.png");
+    background-repeat: no-repeat;
+    width: 269px;
+    height: 260px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;    
+}
+
+.artist_foto_panel__styles{
+    background-image: url("../img/Artist.png");
+    background-repeat: no-repeat;
+    width: 269px;
+    height: 260px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden; 
+}
+
+.graphic_designer_foto_panel__styles{
+    background-image: url("../img/GraphicDisigner.png");
+    background-repeat: no-repeat;
+    width: 269px;
+    height: 260px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden; 
+}
+
+.second_layer__style{
+    position: relative;
+    width: 269px;
+    height: 260px;
+    top: -260px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.developer_foto_panel__styles:hover .second_layer__style{
+    background-color: #00aed9;
+    top: 0;
+}
+
+.artist_foto_panel__styles:hover .second_layer__style{
+    background-color: #00aed9;
+    top: 0;
+}
+
+.graphic_designer_foto_panel__styles:hover .second_layer__style{
+    background-color: #00aed9;
+    top: 0;
+}
+
+.icon__style{    
+    margin: 5px;
+}
+
+.line_panel__styles{
+    position: relative;
+    top: 15px;
+    width: 269px;
+    height: 260px;
+    text-align: start;    
+}
+
+
+.name_styles{
     font-weight: 900;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 73.52px;
-    text-align: left;
-    text-transform: uppercase; 
-    font-style: normal;
-    letter-spacing: 5.28px;
-    line-height: normal;
 }
 
-.question_content__style{    
-    width: 551px;
-    height: 30px;
-    color: #8f8f8f;
-    font-family: 'Kavivanar', cursive;
-    font-size: 30px;    
-    letter-spacing: normal;
-    line-height: 62.44px;
-    text-align: justifyLeft;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    position: relative;
-    top: -35px;
-}
-
-.text_content__style{
-    color: #000000;
-    font-size: 27px;
-    font-weight: 400;
-    font-family: "Playfair Display";
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 40.38px;
-    text-align: justifyLeft;    
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    line-height: normal;
-}
-
-.text_content__style-span{
-    font-style: italic;
-}

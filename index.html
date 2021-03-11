@@ -5,38 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/indexStyles.css">
-    <link rel="stylesheet" href="./styles/blogStyles.css">
     <title>Document</title>
 </head>
-<body class="body__style">
-    <div class="grand_container__style"></div>
-        <div class="header_container__style">
-            <p class="p_header_container__style">TITLE</p>
-            <h2 class="h2_header_container__style">Like Tears In Ra</h2>
-            <hr class="hr_header_container__style">
-        </div>
-        <div class="options_container__style">
-            <svg class="icon_style" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="32" viewBox="0 0 38 32"><g><g><image width="38" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAgCAYAAAB+ZAqzAAAChklEQVRYR+2XS4iOYRTHf3/KdeESFkpKTCkpl4YYjbCTooRJsZiVmEmShWxnNYuJmWYlxcaQhcVshwyaclug1JCSsnDfuIa/Tp2pzxe+95tvZszC2by35zn/33PO8zzneUWNZns28AiYl65eAkslva3FtWrpHH1t7wHOl/lpktRTi++RAOsFtpZB9Era9s/AbC8H7gETyyC+AyskPRguXE0Rs90OHE3xy3ndntd2ScfGHMz2NOAxMD/FG4AY6PV8fgEskfRxOHDDjpjtZuB0ij4DFuX9U2Bh3jdLOjPWYP3AhhRtk3QiV2kbcDzf90tqHDMw2/WZsknAN2C9pFsJtga4mQviK9Ag6Xa1cMNKpe0O4HCKXQU2S3KChc8rwMb83iHpyKiD2Z6TW8SCFGuR1FUqbLsFOJXvngMrJb2uBq7qiNneB5xNkVdZft6UgQV8lKm4hu2XdG60wfqATeWTvlzUduki6JO0ZdTAbK8C7pQIXAIe5v71S9CAZcDOkperJd0tCldVKm13AweKOi9r1y3pYNG+hcFszwQGgblFnZe1i/lYJ+l9kf7VgLUCJ9NplJlI44cKItMznVG+wloldY402ACwNp32SGoqImA7zmpxZgsbkLSuSL9CEbMdpedaySTfLeliEQHbu4AL2fYH0CjpRqW+RcEi/IfS2ROgXtK7Ss7ju+1ZQJSrxdm+U1JMi79aRTDb4TCON0PWJSl29sJmu3Rg0S+OQzHAP1oRsBhxnFQ/pZfBoitrSDVXdF0+TwXuV4p4RbDCYRnhhv/Bqg2obM/4Ta2r1s9It3eA7QWmAPHLNR4sfgU/B1hsgP/BCqRk/EcsivG4TOUOYDIQBXY82ATgy0/6Md8iRrNXdAAAAABJRU5ErkJggg=="/></g></g></svg>
-            <svg class="icon_style" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="23" viewBox="0 0 30 23"><g><g><image width="30" height="23" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAXCAYAAAAcP/9qAAABIElEQVRIS+2VsS4FURCGv79QKBU0QiKhI0ShdTtPo/AEPAGJRqu6D6HiCQi1XEIUKrkhQcQvp5CcrL3nThZ3EzHNSXb+nS8z/5xdEQjbXWAtII1KbhVR2j4DliPaoKYfBR8D68GiEVkvCr4AFiMVg5qnKPgAWC0UXQLGs/wrkOwZFHch8LAubJ8CK5nuStJc6b2fAp8DqevPuJE0WwTbXhjWUU3+HehJSie2G4HdAPwCTEnqjxr8CEy3AU6dzrQBThOekPTwnVHvVDzu1HylDoHrTPcM7ElKXjdbrupi2d4E9ivP5yVdDlrCRltdA94GvkxB0slvgxM0wfPo/Gnw/6iT1yPxuLVRtwbeBbYq12lD0lHhHt8Dk1n+TdJY6a/3Ael9yzt0ClmgAAAAAElFTkSuQmCC"/></g></g></svg>
-            <svg class="icon_style" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="27" viewBox="0 0 28 27"><g><g><image width="28" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAYAAABvCO8sAAABVElEQVRIS+2WvS8EURTFf0eo1ERBwx9A9ERUPhKlgkZFo1BIhAadgkpDKdEpiWQjISqNRqslkSVRUpAcubLLWPslmV3NnHLem/u799x5865sTwB7QA+N1T2wINt5oLOxrK/oTwF0k2CfmAyYutuZpZmlf3Yg+2jqtewOaAO6ar2QhqWvwGDhArhMA/hWyL5SrDlJB7FoewNYrwatVeE1sApsA/1lAu1IWi4+ty3gFBirBK0GfAZGJd3YHgByJffmGTApKRz4ku0O4AroKwetBpyWdJTIfhw4AVqAW2BE0kO5oLaHgHOgtXS9EnBTUvTjh2wvASvAjKSLar2yvQjs1gOMKqYk/ZoEbEfGvZKiwpqyfQjMJjcmKwxATlJYl5psH0evY7qIoEngO7BW8L49JeILMAxsFY9WrWOREvc7zL8AH4E4O81QPiqMyXsf6G4wMX7w8x8ZdbUYcpq3cQAAAABJRU5ErkJggg=="/></g></g></svg>
-            <svg class="icon_style" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="26" viewBox="0 0 20 26"><g><g><image width="20" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAABnElEQVRIS62UO0tcURSFvyVROyWCmN9g5Q9IZ6VMM4hi4yCorY1NtAhRGcdCsIrgAx+FVbQRbCwECxFLQcXGwhSJCCoYEnygW3aYC8Nh7sCduafc+5yPde9ea8vMbkh27oBjYA04kvRU+lxmZsl4/2+/AufAd0mLaQAjxjMwC0xKevNitQpLRTkoJ2mzEvAW+FfmV3wA2oC6oHcBdEr6FaewV9JWCDSzj8A4MAo0Bv2MpN1EQAeYmatbBwYC4DTwLQ7YJ+lH3PTNbAhYCfpLrrxaYAH4EgBngK9xwM+SDsspNLMssAB8Cvo+lP044B5wWQbYDGSApqC3C2QlvaThQ09Mt6SrNIztX9Ej6SRSXKvCv8AOMCbpdxoKI2EHQL+k6ziFcdFzQH2ZCXt9zq1UTVJagSnAze3w6PwBOhIDi/FrALaLFip10GBVSSlCJ4B84Md8LcBlYDgAFhJHr6guB8wDLQFwOGn0/L3vRM9zuA99c7fXauxSgauShtICep67JP1MA3gEjEg6i6L3ELeZK9QfgVNgw7Ms6T66+w7qx84hglMakQAAAABJRU5ErkJggg=="/></g></g></svg>
-            <svg class="icon_style" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="22" viewBox="0 0 19 22"><g><g><image width="19" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAWCAYAAAAinad/AAABWklEQVQ4T62UK0hEQRiFv4MYDBazICgKCorrA6NVFqNgsJk0ajAKZhFMGm0GzRqMFkFwfSGCCJZFBNuCxQdHLtyV4e69uw7sH/+Z890z/z0zIqdsDwGneWtNelUVwMaB60hYrQg2CtxFwl6KYCWgEgn7KIINAIcp7BMYAXoy8CvgJ+i95sKyjmw/AYNB/1zSbHZfS5jtdWAnI1ySVHf+t/Qf2EN6zLroGRiW9B3lzPYCcJwRrUnazfs5TZ3ZPgHKgfAdGJP0FgWzPQNcAOEHtyVtFEWm0JntPWA1EH4B05Juo2C2+4B7oDsQHklabBbkotBuAluB0MCcpLMomO0uIAlpbyCsSJpsdb0anNleAfYzwmVJB1Ew2wn8EpgKhI9pHBpC2hDa9N7V+x1Af2ZTDagCnWl/XlIyhoaS7WS4MVWSdNMuWHIDkti0xdmEpNwnPTlm8grEVLloZr+IX3c65DCajAAAAABJRU5ErkJggg=="/></g></g></svg>
-            <svg class="icon_style" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="27" viewBox="0 0 22 27"><g><g><image width="22" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAbCAYAAAB4Kn/lAAABpUlEQVRIS+2VO2tVQRRG10ILLRTEzspfoKiNGGwFRbAVrATRTsEHBDTm3hAV8YVWgmgZ04ZAAra+GkHRX2BjqaCFjbhlwpzL9nqSHA23CDjVzJlvrz3zzZ45AkTEfeBs6dd2Tb2Sxst2I2IauJwED9RzVnAPmEyTl9TbHcEXgVtJ21d76xdcbCh2NG0tVvTUfmPFyMDr7/D+WzG4IH3gaiq3C+rdjjfvPHAnaafUyabcJoCpNDmu3uwIHgduJO2EOt2AzwAP0+SMeqIj+ClwPGlPq48a8D7gObC5Cr4D+9X3K8EjYg/wCtiU4sbUt0vg+sK9BA4kUEl0TP3SBo+I7cAcMJbmX6gHyziDjwLzQ5A39Q1ZVH/WBWwADgPlwPcO6Y+oi7+Ba9Dwg9/EvQY+1sHOYlPLLu6ppUKW2mDFyZInwMkuB5c0j9VTOeYPcF15+S2V7NtWSfC51LB6fVjXCq7wXbWMDgG7gY01+AfwDngGzKof2pIvC07WbAV2AFvqt2/AJ/XrSrtZFfyXXg/kowNHxEJbdfzrSmtcGBGxRkhr+MjAvwBRd9vHR9+AdwAAAABJRU5ErkJggg=="/></g></g></svg>
-            <svg class="icon_style" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="27" viewBox="0 0 28 27"><g><g><image width="28" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAYAAABvCO8sAAAAYklEQVRIS+XW0Q2AMAwD0WYIVmF1dmES/oy6xLMEXeDk5tx0kmTBMw3gBQOukbDN8sAkp0xZkYbX4qZXKmE1Sw+Zclv6aCC3lCe0M5Tzq9XCvjSNjc9rYffhLyy1v7bPW/oCWOZHgh6hoGcAAAAASUVORK5CYII="/></g></g></svg>
-            <svg class="icon_style" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="27" viewBox="0 0 28 27"><g><g><image width="28" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAYAAABvCO8sAAAAkklEQVRIS+WWsQ2AMAwEc0MwCBRMw57sQAMdEmvQ0BllAeLi9SlIa8sXy593iIgoxkMP4GpssOCEVZYfGBGzqMsbOFu1lKI5gNEJ3IEpA7xaScn4BiytXL9oWjdSx6toBnXRr3oV+LiBdvO2d+idoXN+3czb6zTCjZ/2UtWzSG8L7z78hUq9vzahSlPTUf5pUsAXC/NRfmKWOFoAAAAASUVORK5CYII="/></g></g></svg>
-            <svg class="icon_style" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="27" viewBox="0 0 28 27"><g><g><image width="28" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAYAAABvCO8sAAAAqklEQVRIS82WOw4CMQxEZxoaPh0Ft+AGHJuaG3AL+gUkRPPQNlSsokTRhNS2X8ZxbBtAweMRwHNQoJyEzaz/AQJHSavGDLxtX3/5LioEHpLWjcCn7U0tcJK0bQTebe9qgRdJh0bgzfapCtgIKrrlqxTYF6/V0WBuba+O8YqhhvTSuMLsGxaT3tkg/y2WBADZTgPEe2l8WmTnYefi/IbLVymQ3dpG7KXRzfsDxTdRfo7+WEkAAAAASUVORK5CYII="/></g></g></svg>
-            <svg class="icon_style" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="27" viewBox="0 0 28 27"><g><g><image width="28" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAYAAABvCO8sAAAAkElEQVRIS82WsRHDMAzEXgOkzBDukiYTZwdvYa/jDjkXqc2CB1mteA9RlJ4cABHXmAFcxQQzTNjJuicQWJI8Om6jlCGwJ3mZwC3J2wR+k3w0YAfor1GqYSsQeHYKXmmd1nZcBXXuT/FSPUO3hp31qWj536JyKsB1GkD3Ur1buP2wUudqjP9KAXdqmzGXqpP3Dxr6R4LdGVIEAAAAAElFTkSuQmCC"/></g></g></svg>
-        </div>
-        <div class="content_container__style">
-            <hr class="vert_line__style">
-            <div class="content__style">
-                <h3 class="h3_content__style">Roy Batty, 2019</h3>
-                <h1 class="h1_content__style">Like Tears in Rain</h1>
-                <p class="question_content__style">Where am I going? How long have I got?</p>
-                <p class="text_content__style">I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhauser gate. All those moments will be lost in time... like tears in rain...<span class="text_content__style-span">Time to die</span>.<br><br>
-                I don't know why he saved my life. Maybe in those last moments he loved life more than he ever had before. Not just his life - anybody's life; my life. All he'd wanted were the same answers...<br>
+<body>
+    <div class="grand_container__styles">    
+        <div class="header_container__styles">
+            <h1 class="header_h1__styles">WHO WE ARE</h1>
+            <hr class="header_horizontalline__styles">
+            <div class="header_p_container__styles">
+                <p class="header_p__styles">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-            </div>                        
+            </div>            
+        </div>
+        <div class="center_panel_container__styles">
+            
+            <div class="panel__styles">
+                <div class="developer_foto_panel__styles">
+                    <div class="second_layer__style">
+                        <a href="https://twitter.com/" class="icon__style"><img src="./img/Twitter.png" alt="Twitter"></a>
+                        <a href="https://www.facebook.com/" class="icon__style"><img src="./img/Facebook.png" alt="Facebook"></a>
+                        <a href="https://google.com/" class="icon__style"><img src="./img/Google.png" alt="Google"></a>
+                    </div>
+                </div>
+                <div class="line_panel__styles">
+                    <span class="name_styles">John Handson</span><br>
+                    <span>Lead Designer</span> 
+                </div>
+            </div>
+            <div class="panel__styles">
+                <div class="developer_foto_panel__styles">
+                    <div class="second_layer__style">
+                        <a href="https://twitter.com/" class="icon__style"><img src="./img/Twitter.png" alt="Twitter"></a>
+                        <a href="https://www.facebook.com/" class="icon__style"><img src="./img/Facebook.png" alt="Facebook"></a>
+                        <a href="https://google.com/" class="icon__style"><img src="./img/Google.png" alt="Google"></a>
+                    </div>
+                </div>
+                <div class="line_panel__styles">
+                    <span class="name_styles">Alex Cutter</span><br>
+                    <span>Developer</span> 
+                </div>
+            </div>
+            <div class="panel__styles">
+                <div class="artist_foto_panel__styles">
+                    <div class="second_layer__style">
+                        <a href="https://twitter.com/" class="icon__style"><img src="./img/Twitter.png" alt="Twitter"></a>
+                        <a href="https://www.facebook.com/" class="icon__style"><img src="./img/Facebook.png" alt="Facebook"></a>
+                        <a href="https://google.com/" class="icon__style"><img src="./img/Google.png" alt="Google"></a>
+                    </div>
+                </div>
+                <div class="line_panel__styles">
+                    <span class="name_styles">Elena Simpson</span><br>
+                    <span>Artist</span> 
+                </div>
+            </div>
+            <div class="panel__styles">
+                <div class="graphic_designer_foto_panel__styles">
+                    <div class="second_layer__style">
+                        <a href="https://twitter.com/" class="icon__style"><img src="./img/Twitter.png" alt="Twitter"></a>
+                        <a href="https://www.facebook.com/" class="icon__style"><img src="./img/Facebook.png" alt="Facebook"></a>
+                        <a href="https://google.com/" class="icon__style"><img src="./img/Google.png" alt="Google"></a>
+                    </div>
+                </div>
+                <div class="line_panel__styles">
+                    <span class="name_styles">Lily Allen</span><br>
+                    <span>Graphic Designer</span>
+                </div>
+            </div>
         </div>
     </div>
 </body>
