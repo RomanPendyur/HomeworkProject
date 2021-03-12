@@ -1,0 +1,128 @@
+.contact_grand_container__style{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: 75vw;
+    height: 90vh;
+    margin: -49px 25% 0 14%;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;    
+}
+
+.header_contact_container__style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;   
+    width: 75vw;
+    height: 33%;
+       
+}
+
+.h2_header_contact_container__style{
+    color: #262626;    
+    font-size: 90px;
+    font-weight: 700;    
+    line-height: 25px;    
+}
+
+.p_header_contact_container__style{
+    position: relative;
+    top: -30px;
+    color: black;    
+    font-size: 17px;
+    font-weight: 300 bold;      
+    line-height: 25px;
+}
+
+.middle_contact_container__style{    
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-content: center;
+    width: 75vw;
+    height: 94vh;
+
+}
+
+.form_contact_container__style{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.form_elements_contact_container__style{
+    margin-top: 4%;
+    width: 500px;
+    height: 50px;
+    background-color: #00c4c4;
+    opacity: 0.5;
+    border: none;
+    color: aliceblue; 
+    padding: 5px 8px;   
+}
+
+.textarea_elements_contact_container__style {
+    height: 250px;
+    border: none;                
+}
+
+.form_elements_contact_container__style:hover {
+    opacity: 1;
+    border-left: 5px solid #355b82;
+    width: 495px;         
+}
+
+.cahee_contact_container__style{
+    margin-right: 21%;
+}
+
+.span_cahee_contact_container__style{
+    font-weight: bold;
+    margin-bottom: -4%;
+}
+
+.footer_contact_container__style{
+    background-color: #262626;
+    width: 75vw;
+    height: 7%;
+    margin: -1.5% 25% 0 14%;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.left_footer_p_contact_container__style{
+    color: #b9b9b9;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px; 
+}
+
+
+.center_footer_p_contact_container__style{
+    color: #b9b9b9;
+    font-family: Pacifico;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.right_footer_p_contact_container__style{
+    color: #b9b9b9;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.right_footer_p_span_contact_container__style{
+    color: #ff2b58;
+    font-weight: 700;
+}
+
+
+
